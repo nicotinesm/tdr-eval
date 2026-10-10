@@ -48,6 +48,16 @@ st.set_page_config(
 ENGINE = CalculationEngine()
 CONFIG_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "dr_config.json")
 
+if st.session_state.get("hide_menu"):
+    # Focus mode (entered after a successful fetch): hide the sidebar so the
+    # DR price takes the full width. A "Show controls" button in the main
+    # view brings it back.
+    st.markdown(
+        "<style>[data-testid='stSidebar']{display:none;}"
+        "[data-testid='collapsedControl']{display:none;}</style>",
+        unsafe_allow_html=True,
+    )
+
 # Responsive CSS (static string, no user data): comfortable touch targets and
 # readable type on phones. Inputs stay at 16px so iOS Safari does not auto-zoom.
 st.markdown(
@@ -125,6 +135,10 @@ with st.sidebar:
         if st.button("🧹 Clear cache", use_container_width=True):
             fetch_cached.clear()
             do_fetch = True
+    # Fetch requests coming from the main-view button (important on phones,
+    # where the sidebar is hidden behind the menu).
+    if st.session_state.pop("fetch_request", False):
+        do_fetch = True
 
     if do_fetch:
         st.session_state["force_nonce"] = st.session_state.get("force_nonce", 0) + 1
@@ -136,8 +150,26 @@ with st.sidebar:
 
     st.divider()
     st.header("Parameters")
-    # Fetch (cached 60s, force via nonce)
-    with st.spinner("Fetching live price & FX..."):
+    # Fetch (cached 60s, forced via nonce). An explicit fetch shows a staged
+    # loading status; routine cached re-reads stay instant and silent.
+    needs_seed = st.session_state.get("_seed_dr") != dr_symbol
+    if do_fetch or needs_seed:
+        with st.status("Fetching live price & FX…", expanded=True) as _fb:
+            _fb.write(f"Price `{cfg['underlying_ticker']}` · FX `{cfg['currency_pair']}`")
+            result = fetch_cached(
+                cfg["underlying_ticker"], cfg["currency_pair"], cfg.get("market", "US"),
+                _force=st.session_state.get("force_nonce", 0),
+            )
+            if result.error:
+                _fb.update(label="Fetch failed", state="error", expanded=True)
+            else:
+                _fb.update(
+                    label=f"Updated {result.timestamp.strftime('%H:%M:%S')} · "
+                          f"{result.price_source} / {result.fx_source}",
+                    state="complete",
+                    expanded=False,
+                )
+    else:
         result = fetch_cached(
             cfg["underlying_ticker"], cfg["currency_pair"], cfg.get("market", "US"),
             _force=st.session_state.get("force_nonce", 0),
@@ -151,6 +183,13 @@ with st.sidebar:
             st.session_state["ul_price"] = float(result.price)
             st.session_state["fx_rate"] = float(result.fx_rate)
             st.session_state["_seed_dr"] = dr_symbol
+
+    # After an explicit successful fetch: brief confirmation, then hide the
+    # menu so the DR price takes the full width (focus mode).
+    if do_fetch and not result.error and result.price and result.fx_rate:
+        st.session_state["fetch_flash"] = True
+        st.session_state["hide_menu"] = True
+        st.rerun()
 
     ul = st.number_input("Underlying Price", min_value=0.0, value=float(st.session_state.get("ul_price", 0.0)), format="%.4f")
     fx = st.number_input("Exchange Rate (to THB)", min_value=0.0, value=float(st.session_state.get("fx_rate", 0.0)), format="%.4f")
@@ -203,9 +242,19 @@ st.caption("Indicative DR price (iNAV) = (Underlying × FX) / Ratio · 21 levels
 
 # Primary fetch lives in the main view too: on phones the sidebar is hidden
 # behind the hamburger menu, so mobile users get a full-width button here.
+# The request is honored by the sidebar fetch flow on the next run.
 if st.button("🔄 Fetch live data", type="primary", use_container_width=True):
     st.session_state["force_nonce"] = st.session_state.get("force_nonce", 0) + 1
+    st.session_state["fetch_request"] = True
     st.rerun()
+
+if st.session_state.pop("fetch_flash", False):
+    st.toast("✅ Prices updated — menu hidden for focus", icon="✅")
+
+if st.session_state.get("hide_menu"):
+    if st.button("☰ Show controls", use_container_width=True):
+        st.session_state["hide_menu"] = False
+        st.rerun()
 
 ratio = float(cfg["ratio"])
 if ul <= 0 or fx <= 0:
@@ -219,6 +268,9 @@ except ValueError as exc:
     st.stop()
 
 center = next(l for l in levels if l.level == 0)
+if st.session_state.get("hide_menu"):
+    # Focus mode hero: the current DR price, as large as possible.
+    st.markdown(f"# {dr_symbol} · THB {center.dr_price:,.2f}")
 # Two metric columns (not three): a third column squeezes unreadably on
 # 360-430px phone screens. The status line goes full-width underneath.
 m1, m2 = st.columns(2)
