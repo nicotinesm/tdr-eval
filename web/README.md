@@ -38,3 +38,15 @@ create a Docker-SDK Space and upload this folder unchanged.
 ..\.venv\Scripts\python.exe -m pip install -r requirements.txt
 ..\.venv\Scripts\streamlit.exe run app.py
 ```
+
+## Mobile UX
+
+Responsive layout for 360–430px phones: full-width fetch button (sidebar is
+hidden behind the menu on mobile), 2-column metrics, swipeable grid with a
+hint caption, 16px inputs (prevents iOS auto-zoom), 44–48px touch targets.
+
+## Security
+
+CSV export neutralizes formula-injection characters (`= + - @ | %`); the
+Add/Edit form enforces strict input charsets; no secrets in the repo; all
+HTTP uses TLS with timeouts.

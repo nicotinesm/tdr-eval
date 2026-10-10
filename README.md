@@ -140,6 +140,32 @@ not used by the calculation.
 The bundle is created in `dist\DRPriceEvaluator\`. Keep `dr_config.json` next
 to the executable (the app looks for it in its own directory first).
 
+## Web version (mobile-friendly)
+
+A Streamlit port lives in `web/` — self-contained (own copies of the engine,
+fetcher and registry), verified with headless tests, with a responsive layout
+for Android/iOS browsers: full-width fetch button, 2-column metrics, swipeable
+price grid, 16px inputs (no iOS auto-zoom) and 48px touch targets.
+
+## Deploying the web version (free)
+
+Push to GitHub, then deploy via **Streamlit Community Cloud**: New app →
+select the repo → main file `web/app.py`. Dependencies install from
+`web/requirements.txt`. The site rebuilds automatically on every push to the
+linked branch (`main`).
+
+Note: Hugging Face Spaces is not free for this app — the Streamlit SDK was
+deprecated (Apr 2025) and Docker/Gradio Spaces require a paid plan. Only
+Static Spaces are free, and those cannot run Python.
+
+## Security notes
+
+- CSV export sanitizes `= + - @ | %` leading characters (formula-injection safe).
+- The DR editor enforces strict input charsets; error labels render as plain text.
+- Log lines neutralize CR/LF injection from user-controlled values.
+- `dr_config.json` is written atomically (temp file + replace).
+- All HTTP uses TLS with timeouts; no secrets or credentials in the repo.
+
 ## Project layout
 
 ```
@@ -164,6 +190,14 @@ to the executable (the app looks for it in its own directory first).
 ├── tests/
 │   ├── test_engine.py    Unit tests for calculation engine
 │   └── test_set_tick.py  Unit tests for SET tick logic
+├── web/                  Streamlit web version (mobile-friendly)
+│   ├── app.py            Web app (search, live fetch, 21-level grid, CSV export)
+│   ├── engine.py / set_tick.py / data_fetcher.py  Self-contained core logic
+│   ├── dr_config.json    DR registry copy
+│   ├── requirements.txt  Web dependencies
+│   ├── Dockerfile        Optional HF Docker-SDK deploy (paid plan required)
+│   └── .streamlit/config.toml  Dark theme
 ├── build.spec            PyInstaller spec
-└── requirements.txt
+├── requirements.txt
+└── .gitignore
 ```

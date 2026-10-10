@@ -375,3 +375,23 @@ Sprint 6	UI rework: dark default, left/right layout, DR editor modal	DONE
 Sprint 5	PyInstaller packaging, testing on Windows 11, documentation	DONE (build.spec, README.md; .exe not yet built here)
 8. Conclusion
 This design delivers a professional, highly responsive, and user‑friendly DR evaluation tool that effortlessly scales to cover all Thai depositary receipts. By separating configuration from code, leveraging reliable open‑source libraries, and applying modern UI principles, the application becomes a trusted daily companion for traders and investors monitoring DR price relationships.
+
+9. Web Port, Mobile UX & Security Hardening (2026‑10 addendum)
+A self‑contained Streamlit port lives in web/ (own copies of engine.py,
+set_tick.py, data_fetcher.py and dr_config.json, no PyQt dependency) and
+deploys free via GitHub + Streamlit Community Cloud (main file web/app.py;
+the site rebuilds on every push to main). Hugging Face Spaces was evaluated
+and rejected: the Streamlit SDK was deprecated (Apr 2025) and Docker/Gradio
+Spaces require a paid plan, while free Static Spaces cannot run Python.
+
+Mobile UX (360–430px): full‑width fetch button (sidebar hides behind the menu
+on phones), 2‑column metrics with full‑width status line, swipeable 5‑column
+grid with hint caption, 16px inputs (prevents iOS auto‑zoom), 44–48px touch
+targets via a responsive CSS block.
+
+Security review findings (fixed): CSV formula‑injection sanitizing
+(= + - @ | % leading chars) in desktop and web exports; strict DR‑editor
+input charsets (symbol/ticker/pair/market) plus 60‑char name cap; error labels
+forced to plain text; CR/LF neutralization in logs via utils/logger.safe();
+atomic dr_config.json writes (temp + os.replace). No eval/exec/pickle/
+subprocess in project code; all HTTP uses TLS with timeouts; no secrets in repo.
