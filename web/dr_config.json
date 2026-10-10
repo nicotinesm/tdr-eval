@@ -1,0 +1,3914 @@
+{
+  "AAOI03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "AAOI",
+    "ratio": 3000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "AAOI"
+  },
+  "AAPL01": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "AAPL",
+    "ratio": 340.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "AAPL"
+  },
+  "AAPL03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "AAPL",
+    "ratio": 3000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "AAPL"
+  },
+  "AAPL19": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "AAPL",
+    "ratio": 1500.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "AAPL"
+  },
+  "AAPL80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "Apple DR (KTB)",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "AAPL"
+  },
+  "ABBV19": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "ABBV",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "ABBV"
+  },
+  "ABBV80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "ABBV",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "ABBV"
+  },
+  "ABNB06": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "ABNB",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "ABNB"
+  },
+  "ADBE03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "ADBE",
+    "ratio": 4500.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "ADBE"
+  },
+  "ADBE06": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "ADBE",
+    "ratio": 4000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "ADBE"
+  },
+  "ADVANT19": {
+    "currency_pair": "JPYTHB=X",
+    "market": "JP",
+    "name": "ADVANT",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "6857.T"
+  },
+  "ADVANT23": {
+    "currency_pair": "JPYTHB=X",
+    "market": "JP",
+    "name": "ADVANT",
+    "ratio": 1477.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "6857.T"
+  },
+  "ADVANT80": {
+    "currency_pair": "JPYTHB=X",
+    "market": "JP",
+    "name": "ADVANT",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "6857.T"
+  },
+  "AFRM03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "AFRM",
+    "ratio": 800.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "AFRM"
+  },
+  "AIA06": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "AIA",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "1299.HK"
+  },
+  "AIA19": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "AIA",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "1299.HK"
+  },
+  "AIA23": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "AIA",
+    "ratio": 130.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "1299.HK"
+  },
+  "ALAB01": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "ALAB",
+    "ratio": 2300.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "ALAB"
+  },
+  "AMAT01": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "AMAT",
+    "ratio": 3600.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "AMAT"
+  },
+  "AMAT19": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "AMAT",
+    "ratio": 4000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "AMAT"
+  },
+  "AMAT23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "AMAT",
+    "ratio": 2500.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "AMAT"
+  },
+  "AMD01": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "AMD DR (BLS)",
+    "ratio": 400,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "AMD"
+  },
+  "AMD03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "AMD",
+    "ratio": 2000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "AMD"
+  },
+  "AMD23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "AMD",
+    "ratio": 2400.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "AMD"
+  },
+  "AMD80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "AMD",
+    "ratio": 5000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "AMD"
+  },
+  "AMGN06": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "AMGN",
+    "ratio": 4000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "AMGN"
+  },
+  "AMKR03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "AMKR",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "AMKR"
+  },
+  "AMPX03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "AMPX",
+    "ratio": 200.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "AMPX"
+  },
+  "AMZN01": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "Amazon DR (BLS)",
+    "ratio": 340.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "AMZN"
+  },
+  "AMZN03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "AMZN",
+    "ratio": 2000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "AMZN"
+  },
+  "AMZN06": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "AMZN",
+    "ratio": 4000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "AMZN"
+  },
+  "AMZN19": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "AMZN",
+    "ratio": 4000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "AMZN"
+  },
+  "AMZN23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "AMZN",
+    "ratio": 3000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "AMZN"
+  },
+  "AMZN80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "AMZN",
+    "ratio": 4000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "AMZN"
+  },
+  "ANET23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "ANET",
+    "ratio": 1800.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "ANET"
+  },
+  "ANET80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "ANET",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "ANET"
+  },
+  "ANTA13": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "ANTA",
+    "ratio": 170.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "2020.HK"
+  },
+  "ANTA23": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "ANTA",
+    "ratio": 160.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "2020.HK"
+  },
+  "APLD03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "APLD",
+    "ratio": 300.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "APLD"
+  },
+  "APPL03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "APPL",
+    "ratio": 6000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "AAPL"
+  },
+  "ASEMI23": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "ASEMI ETF",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "3119.HK"
+  },
+  "ASEMI24": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "ASEMI ETF",
+    "ratio": 200.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "3119.HK"
+  },
+  "ASICS23": {
+    "currency_pair": "JPYTHB=X",
+    "market": "JP",
+    "name": "ASICS",
+    "ratio": 340.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "7936.T"
+  },
+  "ASML01": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "ASML",
+    "ratio": 1200.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "ASML"
+  },
+  "ASTS01": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "ASTS",
+    "ratio": 750.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "ASTS"
+  },
+  "ASTS03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "ASTS",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "ASTS"
+  },
+  "AVGO23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "AVGO",
+    "ratio": 4400.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "AVGO"
+  },
+  "AVGO80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "AVGO",
+    "ratio": 5000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "AVGO"
+  },
+  "AXP06": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "AXP",
+    "ratio": 4000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "AXP"
+  },
+  "BABA01": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "BABA",
+    "ratio": 44.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "9988.HK"
+  },
+  "BABA06": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "BABA",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "9988.HK"
+  },
+  "BABA13": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "BABA",
+    "ratio": 250.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "9988.HK"
+  },
+  "BABA19": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "BABA",
+    "ratio": 250.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "9988.HK"
+  },
+  "BABA23": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "BABA",
+    "ratio": 150.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "9988.HK"
+  },
+  "BABA80": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "Alibaba Group DR (KTB)",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.1,
+    "underlying_ticker": "9988.HK"
+  },
+  "BAC03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "BAC",
+    "ratio": 500.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "BAC"
+  },
+  "BDX06": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "BDX",
+    "ratio": 3000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "BDX"
+  },
+  "BE03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "BE",
+    "ratio": 5000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "BE"
+  },
+  "BIDU01": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "BIDU",
+    "ratio": 44.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "9888.HK"
+  },
+  "BIDU06": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "BIDU",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "9888.HK"
+  },
+  "BIDU23": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "BIDU",
+    "ratio": 210.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "9888.HK"
+  },
+  "BIDU80": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "BIDU",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "9888.HK"
+  },
+  "BILIBILI01": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "BILIBI",
+    "ratio": 210.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "9626.HK"
+  },
+  "BIREN23": {
+    "currency_pair": "CNYTHB=X",
+    "market": "CN",
+    "name": "BIREN",
+    "ratio": 25.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "688713.SS"
+  },
+  "BKNG03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "BKNG",
+    "ratio": 2400.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "BKNG"
+  },
+  "BKNG80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "BKNG",
+    "ratio": 2000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "BKNG"
+  },
+  "BKSY03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "BKSY",
+    "ratio": 600.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "BKSY"
+  },
+  "BLK06": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "BLK",
+    "ratio": 10000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "BLK"
+  },
+  "BOEING80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "BOEING",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "BA"
+  },
+  "BONDAS19": {
+    "currency_pair": "THB=X",
+    "market": "SG",
+    "name": "BONDAS ETF",
+    "ratio": 50.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "N6M.SI"
+  },
+  "BONDUS01": {
+    "currency_pair": "THB=X",
+    "market": "HK",
+    "name": "BONDUS ETF",
+    "ratio": 2100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "9078.HK"
+  },
+  "BRKB23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "BRKB",
+    "ratio": 3000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "BRKB"
+  },
+  "BRKB80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "BRKB",
+    "ratio": 10000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "BRKB"
+  },
+  "BYDCOM01": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "BYDCOM",
+    "ratio": 440.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "1211.HK"
+  },
+  "BYDCOM80": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "BYDCOM",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "1211.HK"
+  },
+  "CAMBRI80": {
+    "currency_pair": "CNYTHB=X",
+    "market": "CN",
+    "name": "CAMBRI",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "688256.SS"
+  },
+  "CAT19": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "CAT",
+    "ratio": 5000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "CAT"
+  },
+  "CATL01": {
+    "currency_pair": "CNYTHB=X",
+    "market": "CN",
+    "name": "CATL",
+    "ratio": 440.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "300750.SZ"
+  },
+  "CATL23": {
+    "currency_pair": "CNYTHB=X",
+    "market": "CN",
+    "name": "CATL",
+    "ratio": 250.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "300750.SZ"
+  },
+  "CATL80": {
+    "currency_pair": "CNYTHB=X",
+    "market": "CN",
+    "name": "CATL",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "300750.SZ"
+  },
+  "CBRS03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "CBRS",
+    "ratio": 4000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "CBRS"
+  },
+  "CCJ23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "CCJ",
+    "ratio": 1600.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "CCJ"
+  },
+  "CDNS23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "CDNS",
+    "ratio": 2000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "CDNS"
+  },
+  "CEG23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "CEG",
+    "ratio": 4000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "CEG"
+  },
+  "CHHONGQ19": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "CHHONGQ",
+    "ratio": 10.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "1378.HK"
+  },
+  "CHMOBILE19": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "CHMOBILE",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "0941.HK"
+  },
+  "CHMOBILE23": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "CHMOBILE",
+    "ratio": 130.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "0941.HK"
+  },
+  "CHNXT5023": {
+    "currency_pair": "CNYTHB=X",
+    "market": "CN",
+    "name": "CHNXT50 ETF",
+    "ratio": 1.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "588000.SS"
+  },
+  "CIEN03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "CIEN",
+    "ratio": 10000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "CIEN"
+  },
+  "CMBANK23": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "CMBANK",
+    "ratio": 90.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "3968.HK"
+  },
+  "CME03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "CME",
+    "ratio": 3000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "CME"
+  },
+  "CN01": {
+    "currency_pair": "CNYTHB=X",
+    "market": "CN",
+    "name": "CAM CSI300 ETF",
+    "ratio": 10.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "510300.SS"
+  },
+  "CN23": {
+    "currency_pair": "CNYTHB=X",
+    "market": "CN",
+    "name": "CN CSI300 ETF",
+    "ratio": 4.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "510300.SS"
+  },
+  "CNBIO24": {
+    "currency_pair": "CNYTHB=X",
+    "market": "CN",
+    "name": "CNBIO ETF",
+    "ratio": 200.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "159992.SZ"
+  },
+  "CNEV24": {
+    "currency_pair": "CNYTHB=X",
+    "market": "CN",
+    "name": "CNEV ETF",
+    "ratio": 200.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "515030.SS"
+  },
+  "CNRE80": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "CNRE",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "0836.HK"
+  },
+  "CNROBOAI23": {
+    "currency_pair": "CNYTHB=X",
+    "market": "CN",
+    "name": "CNROBOAI ETF",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "159993.SZ"
+  },
+  "CNSEMI23": {
+    "currency_pair": "CNYTHB=X",
+    "market": "CN",
+    "name": "CNSEMI ETF",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "159995.SZ"
+  },
+  "CNSTAR5023": {
+    "currency_pair": "CNYTHB=X",
+    "market": "CN",
+    "name": "CNSTAR50 ETF",
+    "ratio": 1.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "588000.SS"
+  },
+  "CNTECH01": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "CAM HSTECH ETF",
+    "ratio": 1.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "3067.HK"
+  },
+  "COHR23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "COHR",
+    "ratio": 2000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "COHR"
+  },
+  "COHR80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "COHR",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "COHR"
+  },
+  "COIN01": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "COIN",
+    "ratio": 1600.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "COIN"
+  },
+  "COIN23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "COIN",
+    "ratio": 2000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "COIN"
+  },
+  "COIN80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "COIN",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "COIN"
+  },
+  "COSTCO19": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "COSTCO",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "COST"
+  },
+  "COSTCO80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "COSTCO",
+    "ratio": 10000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "COST"
+  },
+  "CRDO23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "CRDO",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "CRDO"
+  },
+  "CRM01": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "CRM",
+    "ratio": 1800.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "CRM"
+  },
+  "CRM06": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "CRM",
+    "ratio": 2500.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "CRM"
+  },
+  "CRM80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "CRM",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "CRM"
+  },
+  "CRSP03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "CRSP",
+    "ratio": 500.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "CRSP"
+  },
+  "CRWD06": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "CRWD",
+    "ratio": 1250.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "CRWD"
+  },
+  "CRWD80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "CRWD",
+    "ratio": 250.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "CRWD"
+  },
+  "CRWV03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "CRWV",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "CRWV"
+  },
+  "CSCO06": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "CSCO",
+    "ratio": 800.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "CSCO"
+  },
+  "CYPC80": {
+    "currency_pair": "CNYTHB=X",
+    "market": "CN",
+    "name": "CYPC",
+    "ratio": 10.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "600900.SS"
+  },
+  "DASH03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "DASH",
+    "ratio": 2000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "DASH"
+  },
+  "DBO80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "INVESCO DB OIL ETF",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "DBO"
+  },
+  "DBS19": {
+    "currency_pair": "SGDTHB=X",
+    "market": "SG",
+    "name": "DBS",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "D05.SI"
+  },
+  "DDOG19": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "DDOG",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "DDOG"
+  },
+  "DEAM19": {
+    "currency_pair": "EURTHB=X",
+    "market": "DE",
+    "name": "DEAM ETF",
+    "ratio": 500.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "DEAM.DE"
+  },
+  "DELL19": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "DELL",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "DELL"
+  },
+  "DISCO24": {
+    "currency_pair": "JPYTHB=X",
+    "market": "JP",
+    "name": "DISCO",
+    "ratio": 14500.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "6146.T"
+  },
+  "DISCO80": {
+    "currency_pair": "JPYTHB=X",
+    "market": "JP",
+    "name": "DISCO",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "6146.T"
+  },
+  "DISNEY19": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "DISNEY",
+    "ratio": 200.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "DIS"
+  },
+  "DOLLARG80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "DOLLARG",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "DG"
+  },
+  "DUOL06": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "DUOL",
+    "ratio": 1600.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "DUOL"
+  },
+  "E1VFVN3001": {
+    "currency_pair": "VNDTHB=X",
+    "market": "VN",
+    "name": "DCVFMVN30 ETF",
+    "ratio": 1.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "E1VFVN30.VN"
+  },
+  "EOSE03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "EOSE",
+    "ratio": 200.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "EOSE"
+  },
+  "ESTEE80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "ESTEE",
+    "ratio": 3000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "EL"
+  },
+  "ETN03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "ETN",
+    "ratio": 6000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "ETN"
+  },
+  "ETN23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "ETN",
+    "ratio": 2000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "ETN"
+  },
+  "EXPE06": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "EXPE",
+    "ratio": 2500.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "EXPE"
+  },
+  "FABRINET03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "FABRINET",
+    "ratio": 10000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "FN"
+  },
+  "FABRINET23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "FABRINET",
+    "ratio": 4000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "FN"
+  },
+  "FANUC23": {
+    "currency_pair": "JPYTHB=X",
+    "market": "JP",
+    "name": "FANUC",
+    "ratio": 550.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "6954.T"
+  },
+  "FCX23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "FCX",
+    "ratio": 800.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "FCX"
+  },
+  "FERRARI80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "FERRARI",
+    "ratio": 10000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "RACE"
+  },
+  "FPTVN11": {
+    "currency_pair": "VNDTHB=X",
+    "market": "VN",
+    "name": "FPTVN",
+    "ratio": 50.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "FPT.VN"
+  },
+  "FPTVN19": {
+    "currency_pair": "VNDTHB=X",
+    "market": "VN",
+    "name": "FPTVN",
+    "ratio": 10.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "FPT.VN"
+  },
+  "FSLR03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "FSLR",
+    "ratio": 4000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "FSLR"
+  },
+  "FTNT03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "FTNT",
+    "ratio": 2000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "FTNT"
+  },
+  "FUEVFVND01": {
+    "currency_pair": "VNDTHB=X",
+    "market": "VN",
+    "name": "DCVFMVN DIAMOND ETF",
+    "ratio": 1.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "FUEVFVND.VN"
+  },
+  "FWONK06": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "FWONK",
+    "ratio": 800.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "FWONK"
+  },
+  "GAC03": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "GAC",
+    "ratio": 5.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "2238.HK"
+  },
+  "GANFENG23": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "GANFENG",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "1772.HK"
+  },
+  "GANFENG80": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "GANFENG",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "1772.HK"
+  },
+  "GASVN11": {
+    "currency_pair": "VNDTHB=X",
+    "market": "VN",
+    "name": "GASVN",
+    "ratio": 25.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "GAS.VN"
+  },
+  "GDS23": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "GDS",
+    "ratio": 70.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "9698.HK"
+  },
+  "GEELY06": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "GEELY",
+    "ratio": 25.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "0175.HK"
+  },
+  "GEELY80": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "GEELY",
+    "ratio": 10.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "0175.HK"
+  },
+  "GEV23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "GEV",
+    "ratio": 11000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "GEV"
+  },
+  "GEV80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "GEV",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "GEV"
+  },
+  "GFS03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "GFS",
+    "ratio": 1200.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "GFS"
+  },
+  "GIGA23": {
+    "currency_pair": "CNYTHB=X",
+    "market": "CN",
+    "name": "GIGA",
+    "ratio": 300.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "603986.SS"
+  },
+  "GIGA80": {
+    "currency_pair": "CNYTHB=X",
+    "market": "CN",
+    "name": "GIGA",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "603986.SS"
+  },
+  "GLW80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "GLW",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "GLW"
+  },
+  "GOLD03": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "SPDR GOLD (HK) ETF",
+    "ratio": 4000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "2840.HK"
+  },
+  "GOLD19": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "SPDR GOLD TRUST(GSD)",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "GLD"
+  },
+  "GOLDM01": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "GOLDM ETF",
+    "ratio": 700.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "GDX"
+  },
+  "GOLDUS03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "SPDR GOLD (US) ETF",
+    "ratio": 4000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "GLD"
+  },
+  "GOLDUS19": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "SPDR GOLD (US) ETF",
+    "ratio": 300.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "GLD"
+  },
+  "GOLDUS80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "SPDR GOLD (US) ETF",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "GLD"
+  },
+  "GOOG06": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "GOOG",
+    "ratio": 3000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "GOOG"
+  },
+  "GOOG23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "GOOG",
+    "ratio": 4000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "GOOG"
+  },
+  "GOOG80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "Alphabet DR (KTB)",
+    "ratio": 2000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "GOOG"
+  },
+  "GOOGL01": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "GOOGL",
+    "ratio": 340.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "GOOGL"
+  },
+  "GOOGL03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "GOOGL",
+    "ratio": 2000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "GOOGL"
+  },
+  "GOOGL19": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "GOOGL",
+    "ratio": 2000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "GOOGL"
+  },
+  "GRAB80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "GRAB",
+    "ratio": 10.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "GRAB"
+  },
+  "GSEMI24": {
+    "currency_pair": "JPYTHB=X",
+    "market": "JP",
+    "name": "GSEMI ETF",
+    "ratio": 400.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "2243.T"
+  },
+  "GSUS06": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "GSUS",
+    "ratio": 7000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "GSUS"
+  },
+  "HAIERS19": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "HAIERS",
+    "ratio": 10.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "6690.HK"
+  },
+  "HANSOH19": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "HANSOH",
+    "ratio": 25.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "3692.HK"
+  },
+  "HERMES80": {
+    "currency_pair": "EURTHB=X",
+    "market": "FR",
+    "name": "HERMES",
+    "ratio": 10000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "RMS.PA"
+  },
+  "HIMS03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "HIMS",
+    "ratio": 200.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "HIMS"
+  },
+  "HITACHI24": {
+    "currency_pair": "JPYTHB=X",
+    "market": "JP",
+    "name": "HITACHI",
+    "ratio": 800.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "6501.T"
+  },
+  "HK01": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "TRAHK ETF",
+    "ratio": 5.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "2800.HK"
+  },
+  "HK13": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "TRAHK ETF",
+    "ratio": 20.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "2800.HK"
+  },
+  "HKCE01": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "HSCEI ETF",
+    "ratio": 15.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "2828.HK"
+  },
+  "HKEX23": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "HKEX",
+    "ratio": 777.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "0388.HK"
+  },
+  "HKTECH13": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "HSTECH ETF",
+    "ratio": 5.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "3033.HK"
+  },
+  "HONDA19": {
+    "currency_pair": "JPYTHB=X",
+    "market": "JP",
+    "name": "HONDA",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "7267.T"
+  },
+  "HOOD03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "HOOD",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "HOOD"
+  },
+  "HOOD06": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "HOOD",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "HOOD"
+  },
+  "HOOD80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "HOOD",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "HOOD"
+  },
+  "HORIZON23": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "HORIZON",
+    "ratio": 16.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "9660.HK"
+  },
+  "HPG19": {
+    "currency_pair": "VNDTHB=X",
+    "market": "VN",
+    "name": "HPG",
+    "ratio": 10.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "HPG.VN"
+  },
+  "HSHD23": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "HSHD ETF",
+    "ratio": 20.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "2846.HK"
+  },
+  "HUAHONG23": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "HUAHONG",
+    "ratio": 70.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "1347.HK"
+  },
+  "HYGON80": {
+    "currency_pair": "CNYTHB=X",
+    "market": "CN",
+    "name": "HYGON",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "688041.SS"
+  },
+  "IBM06": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "IBM",
+    "ratio": 2500.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "IBM"
+  },
+  "ICBC06": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "ICBC",
+    "ratio": 10.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "1398.HK"
+  },
+  "ICBC19": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "ICBC",
+    "ratio": 10.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "1398.HK"
+  },
+  "IFLYTEK80": {
+    "currency_pair": "CNYTHB=X",
+    "market": "CN",
+    "name": "IFLYTEK",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "002230.SZ"
+  },
+  "INDIA01": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "CAM MSCIINDIA ETF",
+    "ratio": 2.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "3404.HK"
+  },
+  "INDIAESG19": {
+    "currency_pair": "THB=X",
+    "market": "SG",
+    "name": "IS INDIA CLIMATE ETF",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "I98.SI"
+  },
+  "INFQ03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "INFQ",
+    "ratio": 200.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "INFQ"
+  },
+  "INTEL01": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "INTEL",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "INTC"
+  },
+  "INTEL03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "INTEL",
+    "ratio": 500.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "INTC"
+  },
+  "INTEL19": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "INTEL",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "INTC"
+  },
+  "INTEL23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "INTEL",
+    "ratio": 700.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "INTC"
+  },
+  "IONQ03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "IONQ",
+    "ratio": 500.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "IONQ"
+  },
+  "IONQ23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "IONQ",
+    "ratio": 500.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "IONQ"
+  },
+  "ISRG01": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "ISRG",
+    "ratio": 4500.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "ISRG"
+  },
+  "ISRG06": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "ISRG",
+    "ratio": 5000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "ISRG"
+  },
+  "ISRG19": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "ISRG",
+    "ratio": 4000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "ISRG"
+  },
+  "ISRG80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "ISRG",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "ISRG"
+  },
+  "ITOCHU19": {
+    "currency_pair": "JPYTHB=X",
+    "market": "JP",
+    "name": "ITOCHU",
+    "ratio": 60.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "8001.T"
+  },
+  "JAP03": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "GLOBALX JAPAN(HK)ETF",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "3150.HK"
+  },
+  "JAPAN10001": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "HS JAPAN TPX100 ETF",
+    "ratio": 1.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "3410.HK"
+  },
+  "JAPAN13": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "CAM JAPAN HDG ETF",
+    "ratio": 25.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "3160.HK"
+  },
+  "JCI03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "JCI",
+    "ratio": 2000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "JCI"
+  },
+  "JD80": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "JD",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "9618.HK"
+  },
+  "JDHEAL19": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "JDHEAL",
+    "ratio": 50.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "6618.HK"
+  },
+  "JEPI19": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "JEPI ETF",
+    "ratio": 300.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "JEPI"
+  },
+  "JGRO19": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "JGRO ETF",
+    "ratio": 300.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "JGRO"
+  },
+  "JLMAG80": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "JLMAG",
+    "ratio": 10.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "6680.HK"
+  },
+  "JNJ03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "JNJ",
+    "ratio": 2000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "JNJ"
+  },
+  "JOBY03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "JOBY",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "JOBY"
+  },
+  "JPANIME24": {
+    "currency_pair": "JPYTHB=X",
+    "market": "JP",
+    "name": "JPANIME ETF",
+    "ratio": 600.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "2640.T"
+  },
+  "JPMUS06": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "JPMUS",
+    "ratio": 3000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "JPM"
+  },
+  "JPMUS19": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "JPMUS",
+    "ratio": 500.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "JPM"
+  },
+  "JPROBOAI24": {
+    "currency_pair": "JPYTHB=X",
+    "market": "JP",
+    "name": "JPROBOAI ETF",
+    "ratio": 400.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "2638.T"
+  },
+  "JPSEMI24": {
+    "currency_pair": "JPYTHB=X",
+    "market": "JP",
+    "name": "JPSEMI ETF",
+    "ratio": 600.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "2644.T"
+  },
+  "JTEK19": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "JTEK ETF",
+    "ratio": 300.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "JTEK"
+  },
+  "KEYENCE23": {
+    "currency_pair": "JPYTHB=X",
+    "market": "JP",
+    "name": "KEYENCE",
+    "ratio": 5650.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "6861.T"
+  },
+  "KINGSOFT23": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "KINGSOFT",
+    "ratio": 60.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "3888.HK"
+  },
+  "KIOXIA23": {
+    "currency_pair": "JPYTHB=X",
+    "market": "JP",
+    "name": "KIOXIA",
+    "ratio": 1600.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "285A.T"
+  },
+  "KLAC01": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "KLAC",
+    "ratio": 1500.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "KLAC"
+  },
+  "KLAC19": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "KLAC",
+    "ratio": 2000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "KLAC"
+  },
+  "KLAC23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "KLAC",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "KLAC"
+  },
+  "KO80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "KO",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "KO"
+  },
+  "KONAMI24": {
+    "currency_pair": "JPYTHB=X",
+    "market": "JP",
+    "name": "KONAMI",
+    "ratio": 3800.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "9766.T"
+  },
+  "KUAISH01": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "KUAISH",
+    "ratio": 80.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "1024.HK"
+  },
+  "KUAISH06": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "KUAISH",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "1024.HK"
+  },
+  "KUAISH23": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "KUAISH",
+    "ratio": 140.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "1024.HK"
+  },
+  "KUAISH80": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "KUAISH",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "1024.HK"
+  },
+  "LENOVO13": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "LENOVO",
+    "ratio": 20.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "0992.HK"
+  },
+  "LITE01": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "LITE",
+    "ratio": 7300.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "LITE"
+  },
+  "LITE23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "LITE",
+    "ratio": 5000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "LITE"
+  },
+  "LITE80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "LITE",
+    "ratio": 10000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "LITE"
+  },
+  "LLY23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "LLY",
+    "ratio": 10000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "LLY"
+  },
+  "LLY80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "LLY",
+    "ratio": 20000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "LLY"
+  },
+  "LOREAL80": {
+    "currency_pair": "EURTHB=X",
+    "market": "FR",
+    "name": "LOREAL",
+    "ratio": 10000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "OR.PA"
+  },
+  "LPGOLD13": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "LAOPU",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "6181.HK"
+  },
+  "LRCX01": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "LRCX",
+    "ratio": 2400.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "LRCX"
+  },
+  "LRCX19": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "LRCX",
+    "ratio": 2600.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "LRCX"
+  },
+  "LRCX23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "LRCX",
+    "ratio": 2600.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "LRCX"
+  },
+  "LRCX80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "LRCX",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "LRCX"
+  },
+  "LULU06": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "LULU",
+    "ratio": 2000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "LULU"
+  },
+  "LVMH01": {
+    "currency_pair": "EURTHB=X",
+    "market": "FR",
+    "name": "LVMH",
+    "ratio": 1600.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "MC.PA"
+  },
+  "MA80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "MA",
+    "ratio": 10000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "MA"
+  },
+  "MAOGEP80": {
+    "currency_pair": "CNYTHB=X",
+    "market": "CN",
+    "name": "MAOGEP",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "603605.SS"
+  },
+  "MEITUAN19": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "MEITUAN",
+    "ratio": 300.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "3690.HK"
+  },
+  "MEITUAN23": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "MEITUAN",
+    "ratio": 160.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "3690.HK"
+  },
+  "MEITUAN80": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "MEITUAN",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "3690.HK"
+  },
+  "MELI06": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "MELI",
+    "ratio": 25000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "MELI"
+  },
+  "MELI23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "MELI",
+    "ratio": 10000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "MELI"
+  },
+  "META01": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "META",
+    "ratio": 3400.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "META"
+  },
+  "META06": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "META",
+    "ratio": 8000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "META"
+  },
+  "META23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "META",
+    "ratio": 8400.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "META"
+  },
+  "META80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "Meta Platforms DR (KTB)",
+    "ratio": 8000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "META"
+  },
+  "MICRON01": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "MICRON",
+    "ratio": 1600.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "MU"
+  },
+  "MICRON03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "MICRON",
+    "ratio": 3000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "MU"
+  },
+  "MICRON19": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "MICRON",
+    "ratio": 1500.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "MU"
+  },
+  "MICRON23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "MICRON",
+    "ratio": 5000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "MU"
+  },
+  "MICRON80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "MICRON",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "MU"
+  },
+  "MIDEA80": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "MIDEA",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "0300.HK"
+  },
+  "MITSU19": {
+    "currency_pair": "JPYTHB=X",
+    "market": "JP",
+    "name": "MITSU",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "8031.T"
+  },
+  "MIXUE80": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "MIXUE",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "2097.HK"
+  },
+  "MKSI03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "MKSI",
+    "ratio": 5000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "MKSI"
+  },
+  "MNSO80": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "MNSO",
+    "ratio": 10.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "9896.HK"
+  },
+  "MNST06": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "MNST",
+    "ratio": 700.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "MNST"
+  },
+  "MONTAGE80": {
+    "currency_pair": "CNYTHB=X",
+    "market": "CN",
+    "name": "MONTAGE",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "688008.SS"
+  },
+  "MOUTAI80": {
+    "currency_pair": "CNYTHB=X",
+    "market": "CN",
+    "name": "MOUTAI",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "600519.SS"
+  },
+  "MP23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "MP",
+    "ratio": 300.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "MP"
+  },
+  "MP80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "MP",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "MP"
+  },
+  "MPWR23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "MPWR",
+    "ratio": 10000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "MPWR"
+  },
+  "MRAM03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "MRAM",
+    "ratio": 500.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "MRAM"
+  },
+  "MRVL06": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "MRVL",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "MRVL"
+  },
+  "MRVL23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "MRVL",
+    "ratio": 1200.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "MRVL"
+  },
+  "MRVL80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "MRVL",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "MRVL"
+  },
+  "MS06": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "MS",
+    "ratio": 1500.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "MS"
+  },
+  "MSFT01": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "MSFT",
+    "ratio": 3400.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "MSFT"
+  },
+  "MSFT03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "MSFT",
+    "ratio": 5000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "MSFT"
+  },
+  "MSFT06": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "MSFT",
+    "ratio": 4000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "MSFT"
+  },
+  "MSFT19": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "MSFT",
+    "ratio": 3000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "MSFT"
+  },
+  "MSFT23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "MSFT",
+    "ratio": 5400.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "MSFT"
+  },
+  "MSFT80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "Microsoft DR (KTB)",
+    "ratio": 2000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "MSFT"
+  },
+  "MSN11": {
+    "currency_pair": "VNDTHB=X",
+    "market": "VN",
+    "name": "MSN",
+    "ratio": 25.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "MSN.VN"
+  },
+  "MSN19": {
+    "currency_pair": "VNDTHB=X",
+    "market": "VN",
+    "name": "MSN",
+    "ratio": 30.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "MSN.VN"
+  },
+  "MUFG19": {
+    "currency_pair": "JPYTHB=X",
+    "market": "JP",
+    "name": "MUFG",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "8306.T"
+  },
+  "MUFG23": {
+    "currency_pair": "JPYTHB=X",
+    "market": "JP",
+    "name": "MUFG",
+    "ratio": 250.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "8306.T"
+  },
+  "MWG11": {
+    "currency_pair": "VNDTHB=X",
+    "market": "VN",
+    "name": "MWG",
+    "ratio": 25.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "MWG.VN"
+  },
+  "MWG19": {
+    "currency_pair": "VNDTHB=X",
+    "market": "VN",
+    "name": "MWG",
+    "ratio": 10.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "MWG.VN"
+  },
+  "NAURA23": {
+    "currency_pair": "CNYTHB=X",
+    "market": "CN",
+    "name": "NAURA",
+    "ratio": 900.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "002371.SZ"
+  },
+  "NAURA80": {
+    "currency_pair": "CNYTHB=X",
+    "market": "CN",
+    "name": "NAURA",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "002371.SZ"
+  },
+  "NBIS01": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "NBIS",
+    "ratio": 1700.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "NBIS"
+  },
+  "NBIS03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "NBIS",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "NBIS"
+  },
+  "NBIS23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "NBIS",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "NBIS"
+  },
+  "NBIS80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "NBIS",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "NBIS"
+  },
+  "NDAQ06": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "NDAQ",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "NDAQ"
+  },
+  "NDX01": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "CAM NASDAQ 100 ETF",
+    "ratio": 10.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "3086.HK"
+  },
+  "NEE80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "NEE",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "NEE"
+  },
+  "NEM06": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "NEM",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "NEM"
+  },
+  "NEM23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "NEM",
+    "ratio": 1600.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "NEM"
+  },
+  "NET03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "NET",
+    "ratio": 2000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "NET"
+  },
+  "NETEASE80": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "NTES",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "9999.HK"
+  },
+  "NFLX06": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "NFLX",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "NFLX"
+  },
+  "NFLX80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "NFLX",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "NFLX"
+  },
+  "NIKE80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "NIKE",
+    "ratio": 2000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "NKE"
+  },
+  "NIKKEI80": {
+    "currency_pair": "JPYTHB=X",
+    "market": "JP",
+    "name": "NIKKEI ETF",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "1321.T"
+  },
+  "NINTENDO19": {
+    "currency_pair": "JPYTHB=X",
+    "market": "JP",
+    "name": "NINTENDO",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "7974.T"
+  },
+  "NINTENDO23": {
+    "currency_pair": "JPYTHB=X",
+    "market": "JP",
+    "name": "NINTENDO",
+    "ratio": 1130.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "7974.T"
+  },
+  "NONGFU80": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "NONGFU",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "9633.HK"
+  },
+  "NOVOB80": {
+    "currency_pair": "DKKTHB=X",
+    "market": "DK",
+    "name": "NOVOB",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "NOVO-B.CO"
+  },
+  "NOW19": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "NOW",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "NOW"
+  },
+  "NVDA01": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "NVDA",
+    "ratio": 340.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "NVDA"
+  },
+  "NVDA03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "NVDA",
+    "ratio": 1500.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "NVDA"
+  },
+  "NVDA06": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "NVDA",
+    "ratio": 1500.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "NVDA"
+  },
+  "NVDA19": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "NVDA",
+    "ratio": 250.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "NVDA"
+  },
+  "NVDA23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "NVDA",
+    "ratio": 2100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "NVDA"
+  },
+  "NVDA80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "NVIDIA DR (KTB)",
+    "ratio": 200.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "NVDA"
+  },
+  "NVTS03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "NVTS",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "NVTS"
+  },
+  "NVTS23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "NVTS",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "NVTS"
+  },
+  "OIL03": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "S&P CRUDE OIL(HK)ETF",
+    "ratio": 10.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "3037.HK"
+  },
+  "OIL24": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "S&P CRUDE OIL(HK)ETF",
+    "ratio": 2.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "3037.HK"
+  },
+  "OKLO03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "OKLO",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "OKLO"
+  },
+  "OKLO23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "OKLO",
+    "ratio": 400.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "OKLO"
+  },
+  "ON23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "ON",
+    "ratio": 500.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "ON"
+  },
+  "ONDS03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "ONDS",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "ONDS"
+  },
+  "ONON03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "ONON",
+    "ratio": 500.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "ONON"
+  },
+  "ORCL01": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "Oracle DR (BLS)",
+    "ratio": 1600.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "ORCL"
+  },
+  "ORCL06": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "ORCL",
+    "ratio": 2500.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "ORCL"
+  },
+  "ORCL19": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "ORCL",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "ORCL"
+  },
+  "ORCL80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "ORCL",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "ORCL"
+  },
+  "OXY03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "OXY",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "OXY"
+  },
+  "PANW19": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "PANW",
+    "ratio": 2500.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "PANW"
+  },
+  "PANW80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "PANW",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "PANW"
+  },
+  "PEP80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "PEP",
+    "ratio": 5000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "PEP"
+  },
+  "PETROCN80": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "PETROCN",
+    "ratio": 10.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "0857.HK"
+  },
+  "PFIZER19": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "PFIZER",
+    "ratio": 50.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "PFE"
+  },
+  "PINGAN01": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "PINGAN",
+    "ratio": 44.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "2318.HK"
+  },
+  "PINGAN80": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "PINGAN",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "2318.HK"
+  },
+  "PLAB03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "PLAB",
+    "ratio": 600.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "PLAB"
+  },
+  "PLTR01": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "PLTR",
+    "ratio": 1100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "PLTR"
+  },
+  "PLTR03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "PLTR",
+    "ratio": 1500.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "PLTR"
+  },
+  "PLTR06": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "PLTR",
+    "ratio": 1500.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "PLTR"
+  },
+  "PLTR23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "PLTR",
+    "ratio": 1900.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "PLTR"
+  },
+  "PNG80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "PNG",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "PG"
+  },
+  "POPMART23": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "POPMART",
+    "ratio": 420.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "9992.HK"
+  },
+  "POPMART80": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "POPMART",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "9992.HK"
+  },
+  "PWR03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "PWR",
+    "ratio": 10000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "PWR"
+  },
+  "PYPL06": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "PYPL",
+    "ratio": 500.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "PYPL"
+  },
+  "QBTS03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "QBTS",
+    "ratio": 400.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "QBTS"
+  },
+  "QCOM06": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "QCOM",
+    "ratio": 2000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "QCOM"
+  },
+  "QQQM19": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "INVESCO NDAQ100 ETF",
+    "ratio": 500.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "QQQM"
+  },
+  "RBLX06": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "RBLX",
+    "ratio": 1200.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "RBLX"
+  },
+  "REMX03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "REMX ETF",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "REMX"
+  },
+  "RGTI03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "RGTI",
+    "ratio": 200.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "RGTI"
+  },
+  "RKLB01": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "RKLB",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "RKLB"
+  },
+  "RKLB03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "RKLB",
+    "ratio": 500.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "RKLB"
+  },
+  "RKLB23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "RKLB",
+    "ratio": 2000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "RKLB"
+  },
+  "RKLB80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "RKLB",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "RKLB"
+  },
+  "SANOFI80": {
+    "currency_pair": "EURTHB=X",
+    "market": "FR",
+    "name": "SANOFI",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "SAN.PA"
+  },
+  "SANRIO23": {
+    "currency_pair": "JPYTHB=X",
+    "market": "JP",
+    "name": "SANRIO",
+    "ratio": 136.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "8136.T"
+  },
+  "SANRIO80": {
+    "currency_pair": "JPYTHB=X",
+    "market": "JP",
+    "name": "SANRIO",
+    "ratio": 20.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "8136.T"
+  },
+  "SBUX80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "SBUX",
+    "ratio": 2000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "SBUX"
+  },
+  "SCHDER80": {
+    "currency_pair": "EURTHB=X",
+    "market": "FR",
+    "name": "SCHDER",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "SU.PA"
+  },
+  "SEAGATE23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "SEAGATE",
+    "ratio": 4800.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "STX"
+  },
+  "SEMB19": {
+    "currency_pair": "SGDTHB=X",
+    "market": "SG",
+    "name": "SEMB",
+    "ratio": 30.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "U96.SI"
+  },
+  "SENSE23": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "SENSE",
+    "ratio": 4.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "0020.HK"
+  },
+  "SGX19": {
+    "currency_pair": "SGDTHB=X",
+    "market": "SG",
+    "name": "SGX",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "S68.SI"
+  },
+  "SHINCHEM19": {
+    "currency_pair": "JPYTHB=X",
+    "market": "JP",
+    "name": "SHINCHEM",
+    "ratio": 500.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "4063.T"
+  },
+  "SHINCHEM80": {
+    "currency_pair": "JPYTHB=X",
+    "market": "JP",
+    "name": "SHINCHEM",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "4063.T"
+  },
+  "SHOP03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "SHOP",
+    "ratio": 1500.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "SHOP"
+  },
+  "SHOP06": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "SHOP",
+    "ratio": 2000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "SHOP"
+  },
+  "SIA19": {
+    "currency_pair": "SGDTHB=X",
+    "market": "SG",
+    "name": "SIA",
+    "ratio": 10.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "C6L.SI"
+  },
+  "SIL03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "SIL ETF",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "SIL"
+  },
+  "SINGTEL80": {
+    "currency_pair": "SGDTHB=X",
+    "market": "SG",
+    "name": "SINGTEL",
+    "ratio": 10.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "Z74.SI"
+  },
+  "SINOBIO19": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "SINOBIO",
+    "ratio": 5.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "1177.HK"
+  },
+  "SMCI03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "SMCI",
+    "ratio": 500.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "SMCI"
+  },
+  "SMFG19": {
+    "currency_pair": "JPYTHB=X",
+    "market": "JP",
+    "name": "SMFG",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "8316.T"
+  },
+  "SMIC01": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "SMIC",
+    "ratio": 70.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "0981.HK"
+  },
+  "SMIC03": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "SMIC",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "0981.HK"
+  },
+  "SMIC13": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "SMIC",
+    "ratio": 150.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "0981.HK"
+  },
+  "SMIC23": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "SMIC",
+    "ratio": 85.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "0981.HK"
+  },
+  "SMR03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "SMR",
+    "ratio": 200.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "SMR"
+  },
+  "SNDK03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "SNDK",
+    "ratio": 4000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "SNDK"
+  },
+  "SNDK23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "SNDK",
+    "ratio": 8000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "SNDK"
+  },
+  "SNDK80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "SNDK",
+    "ratio": 10000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "SNDK"
+  },
+  "SNOW06": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "SNOW",
+    "ratio": 2000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "SNOW"
+  },
+  "SNOW23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "SNOW",
+    "ratio": 2200.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "SNOW"
+  },
+  "SOFI23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "SOFI",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "SOFI"
+  },
+  "SOFTBANK23": {
+    "currency_pair": "JPYTHB=X",
+    "market": "JP",
+    "name": "SOFTBANK",
+    "ratio": 527.5,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "9984.T"
+  },
+  "SOFTBANK80": {
+    "currency_pair": "JPYTHB=X",
+    "market": "JP",
+    "name": "SOFTBANK",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "9984.T"
+  },
+  "SONY80": {
+    "currency_pair": "JPYTHB=X",
+    "market": "JP",
+    "name": "SONY",
+    "ratio": 200.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "6758.T"
+  },
+  "SP50001": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "SP500HK ETF",
+    "ratio": 2.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "2822.HK"
+  },
+  "SP500US19": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "SP500US ETF",
+    "ratio": 200.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "SPY"
+  },
+  "SP500US80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "SP500US ETF",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "SPY"
+  },
+  "SPBOND80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "SPBOND ETF",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "AGG"
+  },
+  "SPCOM80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "SPCOM ETF",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "XLC"
+  },
+  "SPENGY80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "SPENGY ETF",
+    "ratio": 500.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "XLE"
+  },
+  "SPFIN80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "SPFIN ETF",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "XLF"
+  },
+  "SPHLTH80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "SPHLTH ETF",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "XLV"
+  },
+  "SPOT06": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "SPOT",
+    "ratio": 8000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "SPOT"
+  },
+  "SPTECH80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "SPTECH ETF",
+    "ratio": 500.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "XLK"
+  },
+  "STAR5001": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "PREMIA STAR50 ETF",
+    "ratio": 1.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "3105.HK"
+  },
+  "STEG19": {
+    "currency_pair": "VNDTHB=X",
+    "market": "VN",
+    "name": "STEG",
+    "ratio": 10.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "STEG.VN"
+  },
+  "STM03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "STM",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "STM"
+  },
+  "SUNNY19": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "SUNNY",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "2382.HK"
+  },
+  "SUNNY80": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "SUNNY",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "2382.HK"
+  },
+  "SUSHI23": {
+    "currency_pair": "JPYTHB=X",
+    "market": "JP",
+    "name": "SUSHI",
+    "ratio": 332.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "3563.T"
+  },
+  "SYM03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "SYM",
+    "ratio": 800.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "SYM"
+  },
+  "SYM23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "SYM",
+    "ratio": 200.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "SYM"
+  },
+  "SYNP03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "SYNP",
+    "ratio": 5000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "SNPS"
+  },
+  "SYNP23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "SYNP",
+    "ratio": 2500.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "SNPS"
+  },
+  "TAIWAN19": {
+    "currency_pair": "TWDTHB=X",
+    "market": "TW",
+    "name": "YT TAIWAN50 ETF",
+    "ratio": 2.5,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "0050.TW"
+  },
+  "TAIWANAI13": {
+    "currency_pair": "TWDTHB=X",
+    "market": "TW",
+    "name": "KGI TAIWAN AI 50 ETF",
+    "ratio": 1.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "00952.TW"
+  },
+  "TAIWANHD13": {
+    "currency_pair": "TWDTHB=X",
+    "market": "TW",
+    "name": "KGI TAIWAN HD 30 ETF",
+    "ratio": 1.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "00915.TW"
+  },
+  "TEL23": {
+    "currency_pair": "JPYTHB=X",
+    "market": "JP",
+    "name": "TEL",
+    "ratio": 2710.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "8035.T"
+  },
+  "TEL80": {
+    "currency_pair": "JPYTHB=X",
+    "market": "JP",
+    "name": "TEL",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "8035.T"
+  },
+  "TENCENT01": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "TENCENT",
+    "ratio": 440.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "0700.HK"
+  },
+  "TENCENT06": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "TENCENT",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "0700.HK"
+  },
+  "TENCENT11": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "TENCENT",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "0700.HK"
+  },
+  "TENCENT13": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "TENCENT",
+    "ratio": 500.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "0700.HK"
+  },
+  "TENCENT19": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "TENCENT",
+    "ratio": 200.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "0700.HK"
+  },
+  "TENCENT23": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "TENCENT",
+    "ratio": 900.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "0700.HK"
+  },
+  "TENCENT80": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "TENCENT",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "0700.HK"
+  },
+  "TER01": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "TER",
+    "ratio": 2800.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "TER"
+  },
+  "TER23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "TER",
+    "ratio": 2000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "TER"
+  },
+  "TER80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "TER",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "TER"
+  },
+  "THAIBEV19": {
+    "currency_pair": "SGDTHB=X",
+    "market": "SG",
+    "name": "THAIBEV",
+    "ratio": 1.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "Y92.SI"
+  },
+  "TME23": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "TME",
+    "ratio": 160.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "1698.HK"
+  },
+  "TOYOTA80": {
+    "currency_pair": "JPYTHB=X",
+    "market": "JP",
+    "name": "TOYOTA",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "7203.T"
+  },
+  "TRIPCOM23": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "TRIPCOM",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "9961.HK"
+  },
+  "TRIPCOM80": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "TRIPCOM",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "9961.HK"
+  },
+  "TRVUS06": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "TRVUS",
+    "ratio": 2500.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "TRV"
+  },
+  "TSEMI03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "TSEMI",
+    "ratio": 4500.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "TSM"
+  },
+  "TSEMI23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "TSEMI",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "TSM"
+  },
+  "TSLA01": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "TSLA",
+    "ratio": 340.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "TSLA"
+  },
+  "TSLA03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "TSLA",
+    "ratio": 3000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "TSLA"
+  },
+  "TSLA23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "TSLA",
+    "ratio": 5200.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "TSLA"
+  },
+  "TSLA80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "Tesla DR (KTB)",
+    "ratio": 5000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "TSLA"
+  },
+  "UBER06": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "UBER",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "UBER"
+  },
+  "UBTECH23": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "UBTECH",
+    "ratio": 250.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "9880.HK"
+  },
+  "UNH19": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "UNH",
+    "ratio": 2000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "UNH"
+  },
+  "UNIQLO80": {
+    "currency_pair": "JPYTHB=X",
+    "market": "JP",
+    "name": "UNIQLO",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "9983.T"
+  },
+  "UOB19": {
+    "currency_pair": "SGDTHB=X",
+    "market": "SG",
+    "name": "UOB",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "U11.SI"
+  },
+  "USAR03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "USAR",
+    "ratio": 400.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "USAR"
+  },
+  "USTR24": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "USTR ETF",
+    "ratio": 200.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "TLT"
+  },
+  "V3011": {
+    "currency_pair": "VNDTHB=X",
+    "market": "VN",
+    "name": "KIM VN30 ETF",
+    "ratio": 2.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "FUEVN30.VN"
+  },
+  "VCB11": {
+    "currency_pair": "VNDTHB=X",
+    "market": "VN",
+    "name": "VCB",
+    "ratio": 25.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "VCB.VN"
+  },
+  "VCB19": {
+    "currency_pair": "VNDTHB=X",
+    "market": "VN",
+    "name": "VCB",
+    "ratio": 10.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "VCB.VN"
+  },
+  "VDIAMOND11": {
+    "currency_pair": "VNDTHB=X",
+    "market": "VN",
+    "name": "KIM VN DIAMOND ETF",
+    "ratio": 2.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "FUEVFVND.VN"
+  },
+  "VENTURE19": {
+    "currency_pair": "SGDTHB=X",
+    "market": "SG",
+    "name": "VENTURE",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "V03.SI"
+  },
+  "VGT80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "VGT",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "VGT"
+  },
+  "VHM19": {
+    "currency_pair": "VNDTHB=X",
+    "market": "VN",
+    "name": "VHM",
+    "ratio": 10.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "VHM.VN"
+  },
+  "VICR80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "VICR",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "VICR"
+  },
+  "VISA06": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "VISA",
+    "ratio": 8000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "VISA"
+  },
+  "VISA80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "VISA",
+    "ratio": 8000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "VISA"
+  },
+  "VNFIN24": {
+    "currency_pair": "VNDTHB=X",
+    "market": "VN",
+    "name": "VNFIN LEAD ETF",
+    "ratio": 20.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "FUEVN50.VN"
+  },
+  "VNM19": {
+    "currency_pair": "VNDTHB=X",
+    "market": "VN",
+    "name": "VNM",
+    "ratio": 10.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "VNM.VN"
+  },
+  "VRT01": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "VRT",
+    "ratio": 2600.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "VRT"
+  },
+  "VRT23": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "VRT",
+    "ratio": 3400.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "VRT"
+  },
+  "VRT80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "VRT",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "VRT"
+  },
+  "VST03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "VST",
+    "ratio": 2500.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "VST"
+  },
+  "VT03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "VT ETF",
+    "ratio": 1500.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "VT"
+  },
+  "WDC03": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "WDC",
+    "ratio": 8000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "WDC"
+  },
+  "WMT06": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "WMT",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "WMT"
+  },
+  "WMT80": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "WMT",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "WMT"
+  },
+  "WORLD03": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "GLOBALX INBLU(HK)ETF",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "3066.HK"
+  },
+  "WORLDA01": {
+    "currency_pair": "THB=X",
+    "market": "US",
+    "name": "WORLDA ETF",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "VT"
+  },
+  "WUXI06": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "WUXI",
+    "ratio": 40.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "2359.HK"
+  },
+  "WUXI13": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "WUXI",
+    "ratio": 70.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "2359.HK"
+  },
+  "WUXIAT80": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "WUXIAT",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "2359.HK"
+  },
+  "XIAOMI01": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "XIAOMI",
+    "ratio": 44.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "1810.HK"
+  },
+  "XIAOMI13": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "XIAOMI",
+    "ratio": 50.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "1810.HK"
+  },
+  "XIAOMI19": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "XIAOMI",
+    "ratio": 20.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "1810.HK"
+  },
+  "XIAOMI23": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "XIAOMI",
+    "ratio": 83.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "1810.HK"
+  },
+  "XIAOMI80": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "XIAOMI",
+    "ratio": 10.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "1810.HK"
+  },
+  "XPENG03": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "XPENG",
+    "ratio": 100.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "9868.HK"
+  },
+  "ZAI23": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "ZAI",
+    "ratio": 400.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "9688.HK"
+  },
+  "ZIJIN13": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "ZIJIN",
+    "ratio": 60.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "2899.HK"
+  },
+  "ZIJIN23": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "ZIJIN",
+    "ratio": 65.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "2899.HK"
+  },
+  "ZIJIN80": {
+    "currency_pair": "HKDTHB=X",
+    "market": "HK",
+    "name": "ZIJIN",
+    "ratio": 10.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "2899.HK"
+  },
+  "ZJINNO80": {
+    "currency_pair": "CNYTHB=X",
+    "market": "CN",
+    "name": "ZJINNO",
+    "ratio": 1000.0,
+    "underlying_tick_size": 0.01,
+    "underlying_ticker": "300308.SZ"
+  }
+}

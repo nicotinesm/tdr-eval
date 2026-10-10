@@ -1,0 +1,377 @@
+Professional Implementation Design
+DR Price Evaluation Tool for Thailand Market
+Platform: Windows 11 Pro · Language: Python 3.11+ · GUI Framework: PyQt6
+Data Source: Yahoo Finance (yfinance) · Configuration: JSON-based DR registry
+
+1. System Overview
+A standalone desktop application that allows users to select any Thai-listed Depositary Receipt (DR), automatically fetch the underlying stock price and relevant foreign exchange rate, then display a dynamic pricing table (±10 ticks around the current price) with full recalculation on any manual input change.
+
+Core capabilities:
+
+Auto‑discovery of all listed Thai DRs from a central configuration file.
+
+One‑click fetch of live underlying price & FX rate.
+
+Instant recalculation of the DR indicative price (iNAV) for 21 price levels when either underlying price or exchange rate is modified.
+
+Proper rounding to Thai stock exchange tick sizes.
+
+Clean, modern, responsive UI with dark/light theme support.
+
+2. Technology Stack
+Layer	Technology	Rationale
+Runtime	Python 3.11+	Extensive financial libraries, cross‑platform capable
+GUI	PyQt6 (Qt 6.5+)	Native Windows look, fast table rendering, signal/slot for reactivity
+HTTP/Data	yfinance + requests + cachetools	Free delayed data, built‑in caching, robust error handling
+Configuration	JSON (local file)	Human‑editable, no database needed
+Packaging	PyInstaller	One-folder Windows bundle (build.spec, COLLECT)
+Styling	Qt Style Sheets (QSS) + custom widget painting	Modern, flat‑design look with theming
+3. Application Architecture (MVC Extended)
+text
+┌──────────────────────────────────────────────────────┐
+│                     UI Layer (View)                   │
+│  MainWindow, DRSearchCombo, ParamPanel, PriceTable    │
+└────────────┬───────────────────────────┬─────────────┘
+             │ Signals (valueChanged,     │
+             │  currentIndexChanged)      │
+┌────────────▼───────────────────────────▼─────────────┐
+│                  Controller Layer                     │
+│  AppController – orchestrates fetch, compute, update  │
+└──────┬────────────────────────────────────┬──────────┘
+       │                                    │
+┌──────▼──────────┐              ┌──────────▼──────────┐
+│  Data Fetcher    │              │  Calculation Engine │
+│  (YahooFinance)  │              │  (iNAV formula,     │
+│  - fetch_price() │              │   rounding, grid)   │
+│  - fetch_fx()    │              └─────────────────────┘
+└──────┬──────────┘
+       │
+┌──────▼──────────┐
+│  Config Manager  │
+│  (dr_config.json)│
+└─────────────────┘
+3.1 Configuration Manager (config.py)
+Manages the DR registry. The JSON file contains all publicly traded DRs in Thailand, their underlying symbols, ratio, currency pair, and market tick sizes.
+
+Example dr_config.json:
+
+json
+{
+  "ORCL01": {
+    "underlying_ticker": "ORCL",
+    "currency_pair": "THB=X",
+    "ratio": 10,
+    "market": "US",
+    "underlying_tick_size": 0.01
+  },
+  "BABA80": {
+    "underlying_ticker": "9988.HK",
+    "currency_pair": "HKDTHB=X",
+    "ratio": 100,
+    "market": "HK",
+    "underlying_tick_size": 0.10
+  },
+  "AAPL80": {
+    "underlying_ticker": "AAPL",
+    "currency_pair": "THB=X",
+    "ratio": 20,
+    "market": "US",
+    "underlying_tick_size": 0.01
+  }
+}
+Key Class:
+
+python
+class DRConfig:
+    def __init__(self, config_path: str = "dr_config.json"):
+        with open(config_path, "r", encoding="utf-8") as f:
+            self._data = json.load(f)
+    def get_all_dr_names(self) -> List[str]:
+        return list(self._data.keys())
+    def get_config(self, dr_symbol: str) -> dict:
+        return self._data[dr_symbol]
+Users (or administrators) can add new DRs simply by appending entries to this file. The application reads it at startup.
+
+3.2 Data Fetcher (data_fetcher.py)
+Encapsulates all external API calls with caching and graceful fallback.
+
+Features:
+
+Uses yfinance to fetch delayed stock prices (15‑min delay for US, real‑time for some markets with premium, but enough for indicative pricing).
+
+Caches results for 60 seconds to avoid rate‑limiting. The manual "Fetch Data"
+button bypasses the cache (force‑refresh) via YahooFinanceFetcher.invalidate().
+
+Price fallback: Yahoo Finance → TradingView Scanner. The scanner queries every
+DR market with the correct exchange prefix (US: NASDAQ/NYSE/AMEX, HK: HKEX,
+JP: TSE, CN: SSE/SZSE, SG: SGX, FR/DE: EURONEXT/XETR, DK: CPH, TW: TWSE,
+VN: HOSE/HNX) — see YahooFinanceFetcher._tv_candidates().
+
+Returns a FetchResult dataclass: (price, fx_rate, timestamp, error, price_source, fx_source).
+
+Handles connection errors, invalid tickers, and empty results with a user‑friendly error state.
+
+python
+@dataclass
+class FetchResult:
+    price: Optional[float]
+    fx_rate: Optional[float]
+    timestamp: datetime
+    error: Optional[str] = None
+
+class YahooFinanceFetcher:
+    def __init__(self, cache_ttl: int = 60):
+        self.cache = TTLCache(maxsize=32, ttl=cache_ttl)
+    
+    def fetch(self, dr_config: dict) -> FetchResult:
+        # Try cache first
+        ...
+3.3 Calculation Engine (engine.py)
+Responsible for generating the 21‑row price table. The iNAV formula:
+
+text
+iNAV (THB) = (Underlying_Price × FX_Rate) / Ratio
+Tick Size & Rounding:
+The Thai stock exchange (SET) defines tick sizes based on price ranges. The engine includes a tick‑size mapping function:
+
+DR Price Range (THB)	Tick Size (THB)
+< 2	0.01
+2 – < 5	0.02
+5 – < 10	0.05
+10 – < 25	0.10
+25 – < 100	0.25
+100 – < 200	0.50
+200 – < 400	1.00
+≥ 400	2.00
+Grid Generation Logic (as implemented in engine.py):
+
+The grid does NOT step the underlying price. It anchors on the DR price: the
+center row (level 0) is the current iNAV rounded half-up to the SET tick, then
+10 steps are built above/below. Each step advances by the SET tick applicable
+to the *current* level's price, so every quoted price is a valid SET price even
+when the range crosses a tick band (e.g. …1.99 → 2.00 → 2.02 → 2.04…). Each
+level's underlying price is implied back from the DR price.
+
+python
+def generate_price_table(underlying_price: float, fx_rate: float,
+                         ratio: float) -> list[dict]:
+    current_inav = (underlying_price * fx_rate) / ratio
+    center = round_to_set_tick(current_inav)        # half-up to SET tick
+    above = []
+    price = center
+    for _ in range(10):
+        price = round_to_set_tick(price + get_set_tick(price))
+        if price <= center:
+            break
+        above.append(price)
+    below = []
+    price = center
+    for _ in range(10):
+        price = round_to_set_tick(price - get_set_tick(price))
+        if price <= 0 or price >= center:
+            break
+        below.append(price)
+    ordered = list(reversed(below)) + [center] + above
+    levels = []
+    for i, dr in zip(range(-10, 11), ordered):
+        implied_underlying = (dr * ratio) / fx_rate
+        levels.append({
+            "level": i,
+            "dr_price": dr,
+            "underlying_price": round(implied_underlying, 6),
+            "fx_rate": fx_rate,
+            "raw_dr": (implied_underlying * fx_rate) / ratio,
+        })
+    return levels
+
+Note: the per-DR "underlying_tick_size" in dr_config.json is metadata only;
+the engine derives the tick from the DR price at each level via
+get_set_tick()/round_to_set_tick() (Decimal half-up, never Python's built-in
+round()). round_to_set_tick() also floors positive prices to the minimum tick
+(0.01) instead of returning 0.
+3.4 UI Layer – Modern & Beautiful Design (ui/)
+Built with PyQt6, following a clean, flat‑design aesthetic. Two themes are provided (light/dark), switchable via a toggle. Dark is the default theme (fresh installs). The chosen theme is persisted in QSettings.
+
+Main Window Layout (left/right split):
+
+text
+┌──────────────────────────────────────────────────────────────┐
+│  DR Price Evaluator   iNAV…   Last update…   [Export] [🌙]   │
+├──────────────┬───────────────────────────────────────────────┤
+│ Select DR    │  Price Table (±10 Ticks)                      │
+│ [combo     ] │  ┌──────┬─────────────┬──────┬─────────┬─────┐│
+│ [Add / Edit] │  │Level │Und. Price   │  FX  │Raw DR   │SET  ││
+│ Parameters   │  │      │             │      │(THB)    │DR   ││
+│ Underly. [  ]│  ├──────┼─────────────┼──────┼─────────┼─────┤│
+│ FX      [  ]│  │ +10  │ 120.60      │36.55 │44.079   │44.00││
+│ Ratio   [10]│  │  ... │             │      │         │     ││
+│ [Fetch Data]│  │  0   │ 120.50      │36.55 │44.042   │44.00││
+│ errors      │  │  ... │             │      │         │     ││
+│              │  │ -10  │ 120.40      │36.55 │44.006   │44.00││
+│              │  └──────┴─────────────┴──────┴─────────┴─────┘│
+└──────────────┴───────────────────────────────────────────────┘
+
+The header row holds the title, the iNAV highlight, the "Last update"
+status line, the Export CSV button and the theme toggle. The left sidebar
+(fixed width) stacks the DR selector, the parameter panel and the Fetch
+Data button. The price table occupies all remaining width.
+
+Key UI Components:
+
+DRSearchComboBox – Editable combo box with autocomplete, populated from dr_config.json. Matching is case-insensitive (MatchContains + CaseInsensitive), so `aapl`, `AAPL` or `AapL` all complete to AAPL01. Selecting a DR triggers an automatic fetch.
+
+DREditorDialog (ui/dr_editor.py) – Modal dialog opened via the sidebar
+"Add / Edit" button. Registers a new DR or edits the selected one. Fields:
+DR symbol (locked when editing), underlying ticker, currency pair, ratio,
+and optional market, name, underlying tick size. Validates required fields
+and duplicate symbols, then persists the entry to dr_config.json and
+refreshes the combo.
+
+ParamPanel – Three QLineEdit fields for underlying price, exchange rate, and ratio. Ratio is read‑only. Underlying price and FX rate accept manual edits; every keystroke (with a 200 ms debounce) triggers table recalculation.
+
+PriceTableView – A QTableWidget with custom styling: alternating row colors, highlighted center row (green background/white text). Columns: Level, Underlying Price, FX, Raw DR, SET DR. Table is readonly.
+
+FetchButton – Manual refresh. During loading the button is disabled and shows
+"Fetching..." (text only — the planned spinner.gif is NOT bundled).
+
+StatusBar – Shows status messages (e.g. "Calculated 21 levels"). Errors
+appear as an inline red label in the sidebar.
+
+Theme Toggle – Instant switch between dark (default) and light mode using a global QSS switcher. The chosen theme is persisted in QSettings.
+
+3.5 Controller (app_controller.py)
+The brain that wires everything together:
+
+text
+User selects DR → Controller asks Config for details →
+    triggers DataFetcher.fetch() → on success updates ParamPanel fields →
+    triggers CalculationEngine.generate_table() → updates PriceTableView.
+
+User edits Underlying Price or FX → signal with debounce →
+    Controller re-runs CalculationEngine with new values → updates table.
+Signal/Slot Connectivity (PyQt6):
+
+python
+class AppController(QObject):
+    def __init__(self, config, fetcher, engine, view):
+        # View signals
+        view.dr_selected.connect(self.on_dr_selected)
+        view.fetch_clicked.connect(self.on_fetch_clicked)
+        view.params_changed.connect(self.on_params_changed)
+        
+    @Slot(str)
+    def on_dr_selected(self, dr_symbol: str):
+        cfg = self.config.get_config(dr_symbol)
+        self.view.set_ratio(cfg["ratio"])
+        self.on_fetch_clicked()   # auto-fetch
+        
+    @Slot()
+    def on_fetch_clicked(self):
+        dr = self.view.current_dr()
+        cfg = self.config.get_config(dr)
+        result = self.fetcher.fetch(cfg)
+        if result.error:
+            self.view.show_error(result.error)
+        else:
+            self.view.set_underlying_price(result.price)
+            self.view.set_fx_rate(result.fx_rate)
+            self.view.set_last_update(result.timestamp)
+            self.recalculate()
+            
+    def recalculate(self):
+        ul = self.view.underlying_price()
+        fx = self.view.fx_rate()
+        ratio = self.view.ratio()
+        table = self.engine.generate_price_table(ul, fx, ratio)
+        self.view.update_table(table)
+A QTimer‑based debouncer on the parameter input fields prevents excessive recalculations while the user is typing.
+
+3.6 Error Handling & Resilience
+Network errors: Shown as an inline red error label under the DR selector with the fetcher's message (e.g. “Failed to fetch underlying price/FX from all data sources.”). The Fetch button doubles as retry. (As implemented — no separate banner or retry button.)
+
+Invalid ticker: The same inline error label shows a graceful message and the fetch result is discarded.
+
+Zero or negative inputs: Validation in ParamPanel – if FX or price is non‑positive, the offending field's border turns red (QSS "invalid" property) and an error message is shown; the table is not updated. (As implemented – no “N/A” row.)
+
+Logging: All API calls and errors logged to a rotating file (dr_evaluator.log) using Python’s logging module.
+
+3.7 Packaging & Distribution
+Use PyInstaller (build.spec) to bundle the application for Windows 11. The spec uses COLLECT, producing a one‑folder bundle in dist\DRPriceEvaluator\ (not a single‑file .exe).
+
+Include dr_config.json and a README.txt in the distribution folder.
+
+The executable can be placed anywhere; it will look for the config file in the same directory.
+
+Optionally, sign the executable with a code‑signing certificate for enterprise deployment.
+
+4. Scalability – Adding a New DR
+Open dr_config.json.
+
+Add a new entry following the template:
+
+json
+"TSLA80": {
+    "underlying_ticker": "TSLA",
+    "currency_pair": "THB=X",
+    "ratio": 5,
+    "market": "US",
+    "underlying_tick_size": 0.01
+}
+Restart the application. The DR will appear in the searchable dropdown.
+No code changes required.
+Only "underlying_ticker", "currency_pair" and "ratio" are required; "market",
+"name" and "underlying_tick_size" are optional metadata (underlying_tick_size is
+not used by the calculation — see 3.3).
+
+5. Modern UI/UX Enhancements
+Custom rounded cards for parameter sections using QFrame with CSS border-radius. [IMPLEMENTED]
+
+Smooth hover effects on table rows. [NOT IMPLEMENTED]
+
+Keyboard shortcuts: Ctrl+F focuses the DR search; Ctrl+R fetches; Tab navigates parameters. [IMPLEMENTED]
+
+Export to CSV button that saves the current table with headers. [IMPLEMENTED]
+
+Auto‑update on clipboard change (optional) – if the user copies a DR name (e.g., from a trading platform), the app detects it and offers to switch (Qt clipboard monitoring). [NOT IMPLEMENTED – optional/roadmap]
+
+System tray icon for quick access, minimize to tray (using QSystemTrayIcon). [NOT IMPLEMENTED – roadmap]
+
+6. Project File Structure
+text
+dr_price_evaluator/
+├── main.py                  # Application entry point
+├── app_controller.py        # Controller logic
+├── config.py                # DRConfig class
+├── data_fetcher.py          # YahooFinanceFetcher
+├── engine.py                # CalculationEngine + tick rounding
+├── dr_config.json           # DR registry
+├── ui/
+│   ├── main_window.py       # MainWindow, layout assembly (left/right split)
+│   ├── dr_search.py         # Searchable combo box widget
+│   ├── dr_editor.py         # Register/edit DR modal dialog
+│   ├── param_panel.py       # Editable parameter inputs
+│   ├── price_table.py       # QTableWidget with custom styling
+│   ├── fetch_worker.py      # QThread for non-blocking background fetch
+│   └── styles/
+│       ├── light.qss
+│       └── dark.qss
+├── resources/               # Currently empty — no icon/spinner bundled
+│   ├── app_icon.ico         # NOT present
+│   └── spinner.gif          # NOT present
+├── utils/
+│   ├── debounce.py          # Debounce utility
+│   ├── set_tick.py          # SET tick rounding logic
+│   └── logger.py            # Logging configuration
+├── requirements.txt
+├── README.md
+└── build.spec               # PyInstaller spec file
+7. Implementation Roadmap (Sprints)
+Sprint	Tasks	Status
+Sprint 1	Core config, data fetcher with cache, calculation engine, unit tests	DONE
+Sprint 2	Basic UI: main window, DR combo, parameter panel, table (static)	DONE
+Sprint 3	Full signal wiring, debounced recalculation, error handling	DONE
+Sprint 4	Theming (light/dark), polish UI, export CSV, tray icon	PARTIAL – theming/polish/CSV done; tray icon not implemented
+Sprint 6	UI rework: dark default, left/right layout, DR editor modal	DONE
+Sprint 5	PyInstaller packaging, testing on Windows 11, documentation	DONE (build.spec, README.md; .exe not yet built here)
+8. Conclusion
+This design delivers a professional, highly responsive, and user‑friendly DR evaluation tool that effortlessly scales to cover all Thai depositary receipts. By separating configuration from code, leveraging reliable open‑source libraries, and applying modern UI principles, the application becomes a trusted daily companion for traders and investors monitoring DR price relationships.

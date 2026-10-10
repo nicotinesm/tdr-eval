@@ -1,0 +1,4 @@
+PyQt6>=6.5
+yfinance>=0.2.40
+cachetools>=5.3
+requests>=2.31
